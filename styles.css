@@ -1,0 +1,110 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  background-color: red;
+  padding: 20px;
+  margin: 0;
+}
+
+.logo {
+  background-color: rgb(228, 23, 23);
+  padding: 20px;
+  text-align: center;
+}
+
+.logo h1 {
+  color: rgb(235, 214, 214);
+  font-size: 48px;
+}
+
+.logo p {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+nav {
+  background: red;
+  height: 80px;
+  width: 100%;
+}
+
+label.logo {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+  line-height: 80px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 7px 15px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+active,
+a:hover {
+  background: yellow;
+  transition: .5s;
+}
+
+main {
+  padding: none;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+/* .featured-posts {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+.post {
+  margin-bottom: 20px;
+}
+
+.post img {
+  width: 50%;
+  height: 300px;
+  object-fit: fill;
+  border-radius: 10px;
+}
+
+.post h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.blog-posts {
+  background-color: red;
+  padding: 20px;
+  margin: none;
+} */
+
+footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
